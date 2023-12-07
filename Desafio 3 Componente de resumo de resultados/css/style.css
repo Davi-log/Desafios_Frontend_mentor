@@ -38,8 +38,9 @@
 body{
     font-family: var(--font-fam);
     display: grid;
-    justify-content: center;
+    place-content: center;
     background: #dfdbdb;
+    min-height: 100vh;
 }
 
 main {
@@ -183,11 +184,16 @@ main {
     );
 }
 
+i{
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width: 600px) {
     main {
         display: grid;
         place-content: center;
-        min-height: 100vh;
+        min-height: 50vh;
+        border-radius: 2rem;
     }
 
     .component {

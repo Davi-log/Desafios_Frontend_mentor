@@ -59,9 +59,10 @@ body{
     margin-top: 5%;
 }
 /*======== Medias ========*/
-@media (max-width: 375px){
+@media (max-width: 919px){
     .box{
         background: none;
+        width: 100vw;
     }
 
     .box-conteudo{
@@ -72,6 +73,7 @@ body{
 
     body{
         font-size: 50%;
+        overflow: hidden;
     }
     
 }

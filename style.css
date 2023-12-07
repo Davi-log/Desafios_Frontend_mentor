@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 html{
     font-family: 'Outfit', sans-serif;
     background-color: black;
@@ -30,6 +34,7 @@ body{
 
 .container h1{
     color: yellow;
+    text-align: center;
 }
 
 .container .perfis a{
@@ -129,9 +134,11 @@ footer p span{
     .links div{
         width: 20rem;
         height: 4rem;
+        padding: 2rem;
     }
 
-    .links div h1{
-        font-size: 1.2rem;
+    .links div a h1{
+        font-size: 0.85rem;
+        text-align: center;
     }
 }
